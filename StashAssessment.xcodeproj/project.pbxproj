@@ -7,19 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01E13B8C262E080C00A36D54 /* StashAssessmentApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13B8B262E080C00A36D54 /* StashAssessmentApp.swift */; };
 		01E13B8E262E080C00A36D54 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13B8D262E080C00A36D54 /* ContentView.swift */; };
 		01E13B90262E081600A36D54 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E13B8F262E081600A36D54 /* Assets.xcassets */; };
 		01E13B93262E081600A36D54 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 01E13B92262E081600A36D54 /* Preview Assets.xcassets */; };
+		01E13B9E262E0B5300A36D54 /* AchievementListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13B9D262E0B5300A36D54 /* AchievementListInteractor.swift */; };
+		01E13BA3262E0C6F00A36D54 /* Achievement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BA2262E0C6F00A36D54 /* Achievement.swift */; };
+		01E13BAB262E121F00A36D54 /* DataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BAA262E121F00A36D54 /* DataModel.swift */; };
+		01E13BAF262E12F100A36D54 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BAE262E12F100A36D54 /* Persistence.swift */; };
+		01E13BB2262E137100A36D54 /* achievements.json in Resources */ = {isa = PBXBuildFile; fileRef = 01E13BB1262E137100A36D54 /* achievements.json */; };
+		01E13BB5262E613400A36D54 /* AchievementListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BB4262E613300A36D54 /* AchievementListPresenter.swift */; };
+		01E13BB8262E632600A36D54 /* AchievementListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BB7262E632600A36D54 /* AchievementListView.swift */; };
+		01E13BBC262E64B400A36D54 /* AchievementListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BBB262E64B400A36D54 /* AchievementListCell.swift */; };
+		01E13BC0262E686B00A36D54 /* AchieveImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BBF262E686B00A36D54 /* AchieveImage.swift */; };
+		01E13BC4262E6C9300A36D54 /* AchievementDetailInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BC3262E6C9300A36D54 /* AchievementDetailInteractor.swift */; };
+		01E13BC8262E6DBF00A36D54 /* AchievementDetailPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BC7262E6DBF00A36D54 /* AchievementDetailPresenter.swift */; };
+		01E13BCB262E6F5F00A36D54 /* AchievementDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BCA262E6F5F00A36D54 /* AchievementDetailView.swift */; };
+		01E13BCE262E729B00A36D54 /* AchievementListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BCD262E729B00A36D54 /* AchievementListRouter.swift */; };
+		01E13BD1262E754900A36D54 /* AchievementDetailRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BD0262E754900A36D54 /* AchievementDetailRouter.swift */; };
+		01E13BD8262E83E200A36D54 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BD7262E83E200A36D54 /* AppDelegate.swift */; };
+		01E13BDB262E840100A36D54 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13BDA262E840100A36D54 /* SceneDelegate.swift */; };
+		01E13BE1262E850500A36D54 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01E13BE0262E850500A36D54 /* LaunchScreen.storyboard */; };
+		01E13C0B262F4AD400A36D54 /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 01E13C0A262F4AD400A36D54 /* ImageLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		01E13B88262E080C00A36D54 /* StashAssessment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StashAssessment.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		01E13B8B262E080C00A36D54 /* StashAssessmentApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StashAssessmentApp.swift; sourceTree = "<group>"; };
 		01E13B8D262E080C00A36D54 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		01E13B8F262E081600A36D54 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		01E13B92262E081600A36D54 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		01E13B94262E081600A36D54 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		01E13B9D262E0B5300A36D54 /* AchievementListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListInteractor.swift; sourceTree = "<group>"; };
+		01E13BA2262E0C6F00A36D54 /* Achievement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Achievement.swift; sourceTree = "<group>"; };
+		01E13BAA262E121F00A36D54 /* DataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModel.swift; sourceTree = "<group>"; };
+		01E13BAE262E12F100A36D54 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		01E13BB1262E137100A36D54 /* achievements.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = achievements.json; sourceTree = "<group>"; };
+		01E13BB4262E613300A36D54 /* AchievementListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListPresenter.swift; sourceTree = "<group>"; };
+		01E13BB7262E632600A36D54 /* AchievementListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListView.swift; sourceTree = "<group>"; };
+		01E13BBB262E64B400A36D54 /* AchievementListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListCell.swift; sourceTree = "<group>"; };
+		01E13BBF262E686B00A36D54 /* AchieveImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchieveImage.swift; sourceTree = "<group>"; };
+		01E13BC3262E6C9300A36D54 /* AchievementDetailInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailInteractor.swift; sourceTree = "<group>"; };
+		01E13BC7262E6DBF00A36D54 /* AchievementDetailPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailPresenter.swift; sourceTree = "<group>"; };
+		01E13BCA262E6F5F00A36D54 /* AchievementDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailView.swift; sourceTree = "<group>"; };
+		01E13BCD262E729B00A36D54 /* AchievementListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementListRouter.swift; sourceTree = "<group>"; };
+		01E13BD0262E754900A36D54 /* AchievementDetailRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AchievementDetailRouter.swift; sourceTree = "<group>"; };
+		01E13BD7262E83E200A36D54 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		01E13BDA262E840100A36D54 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		01E13BE0262E850500A36D54 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		01E13C0A262F4AD400A36D54 /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,11 +86,18 @@
 		01E13B8A262E080C00A36D54 /* StashAssessment */ = {
 			isa = PBXGroup;
 			children = (
-				01E13B8B262E080C00A36D54 /* StashAssessmentApp.swift */,
+				01E13BC2262E6C1E00A36D54 /* AchievementDetailModule */,
+				01E13BBA262E648C00A36D54 /* Functional Views */,
+				01E13BAD262E12A000A36D54 /* Data Sources */,
+				01E13BA1262E0BC600A36D54 /* Entities */,
+				01E13B9C262E0B0400A36D54 /* AchievementListModule */,
+				01E13BD7262E83E200A36D54 /* AppDelegate.swift */,
+				01E13BDA262E840100A36D54 /* SceneDelegate.swift */,
 				01E13B8D262E080C00A36D54 /* ContentView.swift */,
 				01E13B8F262E081600A36D54 /* Assets.xcassets */,
 				01E13B94262E081600A36D54 /* Info.plist */,
 				01E13B91262E081600A36D54 /* Preview Content */,
+				01E13BE0262E850500A36D54 /* LaunchScreen.storyboard */,
 			);
 			path = StashAssessment;
 			sourceTree = "<group>";
@@ -67,6 +108,56 @@
 				01E13B92262E081600A36D54 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		01E13B9C262E0B0400A36D54 /* AchievementListModule */ = {
+			isa = PBXGroup;
+			children = (
+				01E13B9D262E0B5300A36D54 /* AchievementListInteractor.swift */,
+				01E13BB4262E613300A36D54 /* AchievementListPresenter.swift */,
+				01E13BB7262E632600A36D54 /* AchievementListView.swift */,
+				01E13BCD262E729B00A36D54 /* AchievementListRouter.swift */,
+			);
+			path = AchievementListModule;
+			sourceTree = "<group>";
+		};
+		01E13BA1262E0BC600A36D54 /* Entities */ = {
+			isa = PBXGroup;
+			children = (
+				01E13BA2262E0C6F00A36D54 /* Achievement.swift */,
+				01E13BAA262E121F00A36D54 /* DataModel.swift */,
+			);
+			path = Entities;
+			sourceTree = "<group>";
+		};
+		01E13BAD262E12A000A36D54 /* Data Sources */ = {
+			isa = PBXGroup;
+			children = (
+				01E13BAE262E12F100A36D54 /* Persistence.swift */,
+				01E13C0A262F4AD400A36D54 /* ImageLoader.swift */,
+				01E13BB1262E137100A36D54 /* achievements.json */,
+			);
+			path = "Data Sources";
+			sourceTree = "<group>";
+		};
+		01E13BBA262E648C00A36D54 /* Functional Views */ = {
+			isa = PBXGroup;
+			children = (
+				01E13BBB262E64B400A36D54 /* AchievementListCell.swift */,
+				01E13BBF262E686B00A36D54 /* AchieveImage.swift */,
+			);
+			path = "Functional Views";
+			sourceTree = "<group>";
+		};
+		01E13BC2262E6C1E00A36D54 /* AchievementDetailModule */ = {
+			isa = PBXGroup;
+			children = (
+				01E13BC3262E6C9300A36D54 /* AchievementDetailInteractor.swift */,
+				01E13BC7262E6DBF00A36D54 /* AchievementDetailPresenter.swift */,
+				01E13BCA262E6F5F00A36D54 /* AchievementDetailView.swift */,
+				01E13BD0262E754900A36D54 /* AchievementDetailRouter.swift */,
+			);
+			path = AchievementDetailModule;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +217,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E13BB2262E137100A36D54 /* achievements.json in Resources */,
+				01E13BE1262E850500A36D54 /* LaunchScreen.storyboard in Resources */,
 				01E13B93262E081600A36D54 /* Preview Assets.xcassets in Resources */,
 				01E13B90262E081600A36D54 /* Assets.xcassets in Resources */,
 			);
@@ -138,8 +231,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01E13BAB262E121F00A36D54 /* DataModel.swift in Sources */,
+				01E13BC4262E6C9300A36D54 /* AchievementDetailInteractor.swift in Sources */,
+				01E13BC8262E6DBF00A36D54 /* AchievementDetailPresenter.swift in Sources */,
+				01E13BB5262E613400A36D54 /* AchievementListPresenter.swift in Sources */,
 				01E13B8E262E080C00A36D54 /* ContentView.swift in Sources */,
-				01E13B8C262E080C00A36D54 /* StashAssessmentApp.swift in Sources */,
+				01E13BA3262E0C6F00A36D54 /* Achievement.swift in Sources */,
+				01E13BB8262E632600A36D54 /* AchievementListView.swift in Sources */,
+				01E13BD1262E754900A36D54 /* AchievementDetailRouter.swift in Sources */,
+				01E13BAF262E12F100A36D54 /* Persistence.swift in Sources */,
+				01E13B9E262E0B5300A36D54 /* AchievementListInteractor.swift in Sources */,
+				01E13BDB262E840100A36D54 /* SceneDelegate.swift in Sources */,
+				01E13BCB262E6F5F00A36D54 /* AchievementDetailView.swift in Sources */,
+				01E13BCE262E729B00A36D54 /* AchievementListRouter.swift in Sources */,
+				01E13C0B262F4AD400A36D54 /* ImageLoader.swift in Sources */,
+				01E13BBC262E64B400A36D54 /* AchievementListCell.swift in Sources */,
+				01E13BC0262E686B00A36D54 /* AchieveImage.swift in Sources */,
+				01E13BD8262E83E200A36D54 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

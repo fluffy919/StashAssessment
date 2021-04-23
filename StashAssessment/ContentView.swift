@@ -8,14 +8,23 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    @EnvironmentObject var model: DataModel
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        NavigationView {
+            AchievementListView(presenter:
+                AchievementListPresenter(interactor:
+                    AchievementListInteractor(model: model)))
+        }
+//        .padding(.trailing, -32.0)
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        let model = DataModel.sample
+        return ContentView()
+          .environmentObject(model)
     }
 }
