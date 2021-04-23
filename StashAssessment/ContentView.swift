@@ -11,6 +11,11 @@ struct ContentView: View {
     
     @EnvironmentObject var model: DataModel
     
+    init() {
+        UINavigationBar.appearance().backgroundColor = .purple
+        UINavigationBar.appearance().titleTextAttributes = [.foregroundColor: UIColor.white]
+    }
+    
     var body: some View {
         NavigationView {
             AchievementListView(presenter:

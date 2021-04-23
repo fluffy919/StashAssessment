@@ -27,7 +27,7 @@ struct AchievementListView: View {
                                         Image(systemName: "exclamationmark.circle")
                                             .font(.title)
                                             .rotationEffect(.degrees(180))
-                                    }.foregroundColor(.black)
+                                    }.foregroundColor(.white)
                                 })
     }
 }
